@@ -109,7 +109,6 @@
 
   <!--Contact us -->
   <section id='contact'>
-    <div class="contact-us">
       <div class="contact-form">
         <div>
           <h2>Contact Us</h2>
@@ -131,11 +130,20 @@
           <label for="message">Message</label>
           <textarea id='message' type="texts"> </textarea>
         </div>
-        <div><button type ='submit' class="btn">Send</button></div>
+        <div><button type='submit' class="btn">Send</button></div>
       </div>
-      <div class="contact-map"></div>
-    </div>
+      <div id="map"></div>
   </section>
+    <footer id=main-footer>
+           <div class="container">
+            <p>Copyright &copy; 2019, EdgeCoder, All Rights Reserved </p>
+        </div>
+    </footer>
+  <script src="./js/main.js"></script>
+  <script src="https://maps.googleapis.com/maps/api/js?key=AIzaSyDqMKOxhtiAcQKjnpr5_ulfPHhW0bN6w4E&callback=initMap"
+  async defer></script>
 </body>
 
 </html>
+
+

@@ -22,8 +22,6 @@ p{
   margin : auto;
   max-width: 1100px;
   overflow: hidden;
-  padding: 2rem 2rem;
-
 }
 
 .text-center{
@@ -167,40 +165,50 @@ p{
 /*contact us*/
 #contact{
   display: flex;
-  flex:1;
 }
-
-#contact .contact-us{
-  background: #33bbff;
-}
-
-#contact .contact-us .contact-form{
-  flex:1;
+#contact .contact-form{
+  flex : 1;
   padding: 2rem 2rem;
   color :white;
   line-height: 1.5rem;
+  background: #33bbff;
 }
 
-#contact .contact-us .contact-form label{
+#contact .contact-form label{
   display: block;
 }
 
 
-#contact .contact-us .contact-form input{
+#contact .contact-form input{
   display: block;
   width: 100%
 }
 
-#contact .contact-us .contact-form textarea{
+#contact .contact-form textarea{
   height: 60px;
   width: 100%
 }
 
-#contact .contact-us .contact-form button{
+#contact .contact-form button{
   color : white;
   background: #4d4d4d;
   padding: 0.5rem 2rem;
   border-radius: 5px;
   
+}
+
+#contact #map {
+  flex : 2;
+  height: 100%;
+}
+
+/* footer */
+
+#main-footer {
+  background: #4d4d4d;
+}
+
+#main-footer p {
+text-align: center;
 }
 
