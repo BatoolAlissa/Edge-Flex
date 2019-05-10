@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,9 +9,11 @@
   <link rel="stylesheet" href="/css/style.css">
   <link rel="stylesheet" media="screen and (max-width: 768px)" href="/css/mobile.css">
   <link rel="stylesheet" media="screen and (min-width: 1100px)" href="/css/widescreen.css">
-  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css" integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css"
+    integrity="sha384-oS3vJWv+0UjzBfQzYUhtDYW+Pj2yciDJxpsK1OYPAYjqT085Qq/1cq5FLXAZQ7Ay" crossorigin="anonymous">
   <title>Edge Coder|Web Develpment </title>
 </head>
+
 <body id='home'>
   <nav id="navbar">
     <h1 class="logo">
@@ -18,12 +21,121 @@
     </h1>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#">What</a></li>
-      <li><a href="#">Who</a></li>
-      <li><a href="#">Contact</a></li>
+      <li><a href="#what">What</a></li>
+      <li><a href="#who">Who</a></li>
+      <li><a href="#contact">Contact</a></li>
     </ul>
   </nav>
+  <!-- showcase -->
+  <header id='showcase'>
+    <div class="showcase-content">
+      <h1 class="l-heading">
+        The Sky Is The Limit
+      </h1>
+      <p class="lead">
+        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Blanditiis est quam sed repellat error similique.
+      </p>
+      <a href="#what" class="btn">Read More</a>
+    </div>
+  </header>
 
-  
+  <!--What section-->
+  <section id="what">
+    <div class="container text-center">
+      <h2 class="m-heading">
+        <span class="text-primary ">What</span> We Do
+      </h2>
+      <div class="items">
+        <div class="item">
+          <i class="fas fa-laptop"></i>
+          <div>
+            <h3 class="s-heading">Web Apps</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, distinctio.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-mobile-alt"></i>
+          <div>
+            <h3 class="s-heading">Mobile apps</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, distinctio.
+            </p>
+          </div>
+        </div>
+        <div class="item">
+          <i class="fas fa-cogs"></i>
+          <div>
+            <h3 class="s-heading">Technical Support</h3>
+            <p>
+              Lorem ipsum dolor sit amet, consectetur adipisicing elit. Vitae, distinctio.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- who section -->
+
+  <section id='who'>
+    <div class="team-img"></div>
+    <div class="team-des">
+      <h3 class="m-heading"><span class="text-primary">Who</span> We Are</h3>
+      <p class="lead">Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam excepturi facere totam sit ipsam
+        corporis eaque eos voluptate sapiente. Consectetur et fuga officia quia est eos, cumque culpa voluptatibus
+        repellat?</p>
+      <h3>Our team</h3>
+      <li>Jennifer Lawrence: CEO</li>
+      <li>Will Smith: CFO</li>
+      <li>Mark Joe: Lead Accountant</li>
+      <li>Emma Stone: Investment Manager</li>
+      <li>Amy Adams: Senior Accountant</li>
+    </div>
+  </section>
+  <!-- clients -->
+  <section id='clients'>
+    <div class=container>
+      <h1 class="l-heading">Our<span class="text-primary"> Clients</span></h1>
+      <div class='items'>
+        <div><img src="./img/lofo2.png" alt=""></div>
+        <div><img src="./img/logo4.jpg" alt=""></div>
+        <div><img src="./img/logo5.png" alt=""></div>
+      </div>
+    </div>
+  </section>
+
+
+  <!--Contact us -->
+  <section id='contact'>
+    <div class="contact-us">
+      <div class="contact-form">
+        <div>
+          <h2>Contact Us</h2>
+          <p>Please use this form to contact us</p>
+        </div>
+        <div>
+          <label for="name">Name</label>
+          <input id='name' type="text">
+        </div>
+        <div>
+          <label for="email">Email</label>
+          <input id='email' type="email">
+        </div>
+        <div>
+          <label for="phone">Phone Number</label>
+          <input id='phone' type="phone">
+        </div>
+        <div>
+          <label for="message">Message</label>
+          <textarea id='message' type="texts"> </textarea>
+        </div>
+        <div><button type ='submit' class="btn">Send</button></div>
+      </div>
+      <div class="contact-map"></div>
+    </div>
+  </section>
 </body>
+
 </html>
