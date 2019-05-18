@@ -59,7 +59,7 @@ p{
   z-index: 1 ;
   background: #4d4d4d;
   padding: .75rem .5rem;
-}
+  }
 
 #navbar ul{
   display: flex;
